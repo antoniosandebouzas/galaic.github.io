@@ -18,14 +18,13 @@ $color-galaic-yellow: #FFFF80;
 $color-galaic-cyan: #80FFFF;
 $color-galaic-magenta: #FF80FF;
 $color-galaic-lightgray: #F2F2F2;
-$color-galaic-middlegray: #808080;
 $color-galaic-darkgray: #0D0D0D;
 
 $color-galaic-main: $color-galaic-black;
 
 $lm-brand-color: $color-galaic-main !default;
-$lm-brand-color-light: $color-galaic-middlegray !default;
-$lm-brand-color-dark: $color-galaic-middlegray !default;
+$lm-brand-color-light: $color-galaic-lightgray !default;
+$lm-brand-color-dark: $color-galaic-darkgray !default;
 
 $lm-site-title-color: $lm-brand-color !default;
 
@@ -393,8 +392,8 @@ $lm-table-border-color: $lm-border-color-01 !default;
 // $dm-table-border-color: $dm-border-color-01 !default;
 
 $dm-brand-color: $color-galaic-white !default;
-$dm-brand-color-light: $color-galaic-middlegray !default;
-$dm-brand-color-dark: $color-galaic-middlegray !default;
+$dm-brand-color-light: $color-galaic-lightgray !default;
+$dm-brand-color-dark: $color-galaic-darkgray !default;
 
 $dm-site-title-color: $dm-brand-color !default;
 

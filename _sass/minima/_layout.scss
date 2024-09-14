@@ -294,7 +294,6 @@
   h4,
   h5,
   h6 {
-    font-family: $code-font-family;
     margin-top: $spacing-unit
   }
 
@@ -410,4 +409,13 @@ html {
 
 .logo-svg {
   fill: $brand-color-light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $code-font-family;
 }

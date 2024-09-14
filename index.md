@@ -1,4 +1,4 @@
-> Ideas Raining.
+> Ideas Raining
 
 # Welcome to GALAIC
 

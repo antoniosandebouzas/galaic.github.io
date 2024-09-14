@@ -17,32 +17,32 @@ $color-galaic-blue: #8080FF;
 $color-galaic-yellow: #FFFF80;
 $color-galaic-cyan: #80FFFF;
 $color-galaic-magenta: #FF80FF;
-$color-galaic-lightgray: #F2F2F2;
-$color-galaic-darkgray: #0D0D0D;
+$color-galaic-darkwhite: #F2F2F2;
+$color-galaic-brightgray: #E6E6E6;
+$color-galaic-brightblack: #0D0D0D;
+$color-galaic-darkgray: #1A1A1A;
 
 $color-galaic-main: $color-galaic-black;
 
 $lm-brand-color: $color-galaic-main !default;
-$lm-brand-color-light: $color-galaic-lightgray !default;
-$lm-brand-color-dark: $color-galaic-darkgray !default;
+$lm-brand-color-light: $color-galaic-darkwhite !default;
+$lm-brand-color-dark: $color-galaic-brightblack !default;
 
 $lm-site-title-color: $lm-brand-color !default;
 
 $lm-text-color: $color-galaic-black !default;
 $lm-background-color: $color-galaic-white !default;
-$lm-code-background-color: $color-galaic-lightgray !default;
+$lm-code-background-color: $color-galaic-darkwhite !default;
 
 $lm-link-base-color: $color-galaic-blue !default;
 $lm-link-visited-color: $color-galaic-blue !default;
 $lm-link-hover-color: $color-galaic-green !default;
 
 $lm-border-color-01: $color-galaic-black !default;
-$lm-border-color-02: $color-galaic-black !default;
-$lm-border-color-03: $color-galaic-black !default;
 
 $lm-table-text-color: $lm-text-color !default;
-$lm-table-zebra-color: $color-galaic-lightgray !default;
-$lm-table-header-bg-color: $color-galaic-lightgray !default;
+$lm-table-zebra-color: $color-galaic-brightgray !default;
+$lm-table-header-bg-color: $color-galaic-brightgray !default;
 $lm-table-header-border: $lm-border-color-01 !default;
 $lm-table-border-color: $lm-border-color-01 !default;
 
@@ -367,50 +367,24 @@ $lm-table-border-color: $lm-border-color-01 !default;
 // Dark mode
 // ---------
 
-// $dm-brand-color: $color-galaic-main !default;
-// $dm-brand-color-light: $color-galaic-main !default;
-// $dm-brand-color-dark: $color-galaic-main !default;
-
-// $dm-site-title-color: $dm-brand-color-light !default;
-
-// $dm-text-color: $color-galaic-white !default;
-// $dm-background-color: $color-galaic-darkstone !default;
-// $dm-code-background-color: $color-galaic-digitaldarkearth !default;
-
-// $dm-link-base-color: $color-galaic-blue !default;
-// $dm-link-visited-color: $color-galaic-blue !default;
-// $dm-link-hover-color: $color-galaic-green !default;
-
-// $dm-border-color-01: $color-galaic-digitaldarkearth !default;
-// $dm-border-color-02: $color-galaic-digitaldarkearth !default;
-// $dm-border-color-03: $dm-brand-color-dark !default;
-
-// $dm-table-text-color: $dm-text-color !default;
-// $dm-table-zebra-color: $color-galaic-earth !default;
-// $dm-table-header-bg-color: $dm-border-color-01 !default;
-// $dm-table-header-border: $dm-border-color-01 !default;
-// $dm-table-border-color: $dm-border-color-01 !default;
-
 $dm-brand-color: $color-galaic-white !default;
-$dm-brand-color-light: $color-galaic-lightgray !default;
-$dm-brand-color-dark: $color-galaic-darkgray !default;
+$dm-brand-color-light: $color-galaic-darkwhite !default;
+$dm-brand-color-dark: $color-galaic-brightblack !default;
 
 $dm-site-title-color: $dm-brand-color !default;
 
 $dm-text-color: $color-galaic-white !default;
 $dm-background-color: $color-galaic-black !default;
-$dm-code-background-color: $color-galaic-darkgray !default;
+$dm-code-background-color: $color-galaic-brightblack !default;
 
 $dm-link-base-color: $color-galaic-blue !default;
 $dm-link-visited-color: $color-galaic-blue !default;
 $dm-link-hover-color: $color-galaic-green !default;
 
-$dm-border-color-01: $color-galaic-darkgray !default;
-$dm-border-color-02: $color-galaic-darkgray !default;
-$dm-border-color-03: $dm-brand-color-dark !default;
+$dm-border-color-01: $color-galaic-brightblack !default;
 
 $dm-table-text-color: $dm-text-color !default;
-$dm-table-zebra-color: $color-galaic-darkgray !default;
+$dm-table-zebra-color: $color-galaic-brightblack !default;
 $dm-table-header-bg-color: $dm-border-color-01 !default;
 $dm-table-header-border: $dm-border-color-01 !default;
 $dm-table-border-color: $dm-border-color-01 !default;
@@ -759,8 +733,6 @@ $link-visited-color: $lm-link-visited-color;
 $link-hover-color: $lm-link-hover-color;
 
 $border-color-01: $lm-border-color-01;
-$border-color-02: $lm-border-color-02;
-$border-color-03: $lm-border-color-03;
 
 $table-text-color: $lm-table-text-color;
 $table-zebra-color: $lm-table-zebra-color;
@@ -788,8 +760,6 @@ $table-border-color: $lm-table-border-color;
     --minima-link-hover-color: #{$lm-link-hover-color};
 
     --minima-border-color-01: #{$lm-border-color-01};
-    --minima-border-color-02: #{$lm-border-color-02};
-    --minima-border-color-03: #{$lm-border-color-03};
 
     --minima-table-text-color: #{$lm-table-text-color};
     --minima-table-zebra-color: #{$lm-table-zebra-color};
@@ -817,8 +787,6 @@ $table-border-color: $lm-table-border-color;
       --minima-link-hover-color: #{$dm-link-hover-color};
 
       --minima-border-color-01: #{$dm-border-color-01};
-      --minima-border-color-02: #{$dm-border-color-02};
-      --minima-border-color-03: #{$dm-border-color-03};
 
       --minima-table-text-color: #{$dm-table-text-color};
       --minima-table-zebra-color: #{$dm-table-zebra-color};
@@ -845,8 +813,6 @@ $table-border-color: $lm-table-border-color;
   $link-hover-color: var(--minima-link-hover-color);
 
   $border-color-01: var(--minima-border-color-01);
-  $border-color-02: var(--minima-border-color-02);
-  $border-color-03: var(--minima-border-color-03);
 
   $table-text-color: var(--minima-table-text-color);
   $table-zebra-color: var(--minima-table-zebra-color);
@@ -875,8 +841,6 @@ $table-border-color: $lm-table-border-color;
   $link-hover-color: $dm-link-hover-color;
 
   $border-color-01: $dm-border-color-01;
-  $border-color-02: $dm-border-color-02;
-  $border-color-03: $dm-border-color-03;
 
   $table-text-color: $dm-table-text-color;
   $table-zebra-color: $dm-table-zebra-color;

@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  // border-top: 5px solid $border-color-03;
+  // border-top: 5px solid $border-color-01;
   // border-bottom: 1px solid $border-color-01;
   //min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -53,7 +53,7 @@
     text-align: center;
 
     >svg path {
-      fill: $border-color-03;
+      fill: $border-color-01;
     }
   }
 
@@ -129,7 +129,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: $code-background-color;
+    background-color: $lm-table-header-bg-color;
     border: 0px solid $border-color-01;
     border-radius: 10px;
     text-align: left;
@@ -341,10 +341,6 @@
       display: block;
       padding: 10px 12px;
       border: 1px solid $border-color-01;
-
-      &:hover {
-        border-color: $border-color-02
-      }
     }
   }
 }

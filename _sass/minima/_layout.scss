@@ -416,3 +416,7 @@ h2,
 h3 {
   font-family: $code-font-family;
 }
+
+* {
+  font-variant-ligatures: none;
+}

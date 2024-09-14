@@ -314,3 +314,7 @@ table tr:last-child td:first-child {
 table tr:last-child td:last-child {
   border-bottom-right-radius: 10px; /* Bottom right rounded corner */
 }
+
+li::marker {
+  font-family: $code-font-family;
+}

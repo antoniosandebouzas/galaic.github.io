@@ -270,6 +270,9 @@ table {
   border-radius: 10px;
 
   tr {
+    &:nth-child(odd) {
+      background-color: $code-background-color;
+    }
     &:nth-child(even) {
       background-color: $table-zebra-color;
     }
@@ -278,10 +281,10 @@ table {
   th,
   td {
     padding: ($spacing-unit * .25) ($spacing-unit * .5);
-    background-color: $code-background-color;
   }
 
   th {
+    background-color: $code-background-color;
     border: 0px solid $table-header-border;
   }
 
